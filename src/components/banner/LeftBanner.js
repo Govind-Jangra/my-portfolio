@@ -27,11 +27,10 @@ const LeftBanner = () => {
         </h2>
         <p className="text-base font-bodyFont leading-6 tracking-wide">
         Motivated Fresher with excellent problem-solving skills and the ability to perform well in a team. Passionate about coding and I am currently looking to secure a responsible position to utilize my skills
-and get actual experience of tech
+and can create a positive impact on the organization.
         </p>
       </div>
     
-     <Media />
     </div>
   );
 }

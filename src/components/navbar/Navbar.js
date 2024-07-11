@@ -11,8 +11,8 @@ const Navbar = () => {
   const [showMenu, setShowMenu]=useState(false)
   return (
     <div className="w-full h-24 sticky top-0 z-50 bg-bodyColor mx-auto flex justify-between items-center font-titleFont border-b-[1px] border-b-gray-600">
-      <div>
-        <img src={logo} alt="logo" />
+       <div className="flex">
+      <h1 className="text-5xl font-bold ml-2">Govind</h1>
       </div>
       <div>
         <ul className="hidden mdl:inline-flex items-center gap-6 lg:gap-10">
@@ -46,7 +46,7 @@ const Navbar = () => {
               <div>
                 <img className="w-32" src={logo} alt="logo" />
                 <p className="text-sm text-gray-400 mt-2">
-                "I am a passionate MERN stack developer and machine learning enthusiast. With a strong foundation in web development and a keen eye for data, I create innovative solutions that bridge technology and user experience."
+                "Motivated Fresher with excellent problem-solving skills and the ability to perform well in a team. Passionate about coding and I am currently looking to secure a responsible position to utilize my skills and can create a positive impact on the organization."
                 </p>
               </div>
               <ul className="flex flex-col gap-4">

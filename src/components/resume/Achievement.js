@@ -15,7 +15,7 @@ const Achievement = () => {
           
           <h2 className="text-6xl font-bold">Achievements</h2>
         </div>
-        <div className="mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
+        <div className="mt-14 w-full  border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
             title="Winner of CodeRun: The Reignition"
             subTitle="A coding Contest organised by the TechnoByte Of NIT kurukshetra"
@@ -39,13 +39,13 @@ Challange 2K23"
             title="Global  Rank 80 in Codechef Starters 79 Division "
             subTitle="Codechef Starters 79 Division."
             result="80th Rank "
-            des="Achieved 8th rank in the competition."
+            des="Achieved 80th rank in the competition."
           />
 <ResumeCard
-            title="Solved More than 1000 Problems in all Online Judges."
+            title="Solved More than 2000 Problems in all Online Judges."
             subTitle="Online Judges- Leetcode , GFG , Codechef , Codeforces , CodeStudio ."
-            result="1000+ Problems Solved "
-            des="1000+ Problems Solved"
+            result="2000+ Problems Solved "
+            des="2000+ Problems Solved"
           />
 
 <ResumeCard

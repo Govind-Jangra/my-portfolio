@@ -1,6 +1,6 @@
 import React from 'react'
 import Title from '../layouts/Title'
-import { projectOne, projectTwo, projectThree,projectFour} from "../../assets/index";
+import { projectOne, projectTwo, projectThree,projectFour,projectFive} from "../../assets/index";
 import ProjectsCard from './ProjectsCard';
 
 const Projects = () => {
@@ -16,6 +16,14 @@ const Projects = () => {
         />
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
+      <ProjectsCard
+          title=" Open Source PDF Chatbot"
+          des="Developed a full stack RAG-based web application using NextJs and Cloudflare Workers with secured authentication. The application allows users to create multiple PDF chats and ask questions from them. Leveraging LLAMA3 for the language model and BGE-LARGE for the embedding model, it utilizes Pinecone as the vector database. The tech stack includes NextJs, TypeScript, MongoDB, Pinecone, and Cloudflare Workers to ensure robust performance and scalability."
+          src={projectFive}
+          githubLink="https://github.com/Govind-Jangra/open-source-pdf-chat"
+          websiteLink="https://open-source-pdf-chat.vercel.app/"
+
+        />
         <ProjectsCard
           title="Talkative-A Chatting App"
           des="Chatting App with Real-Time Communication | MERN Stack with Socket.io | React.js . 

@@ -16,11 +16,11 @@ const Education = () => {
           
           <h2 className="text-3xl md:text-4xl font-bold">Educational Qualification</h2>
         </div>
-        <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
+        <div className="mt-6 lgl:mt-14 w-ful border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
             title="BTech in Computer Engineering"
             subTitle="National Institute of Technology Kurukshetra (2021 - Present)"
-            result="9.11 CGPA"
+            result="9.02 CGPA"
             des="Studied CS related subjects like  Data Structures And Algorithms, Operating Systems, DBMS, OOPS,Computer Networks, Web Development, etc."
           />
           <ResumeCard
