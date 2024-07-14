@@ -29,6 +29,12 @@ const Achievement = () => {
             des="Solved all questions of the Contest and achieved 5th Rank in the Contest."
           />
           <ResumeCard
+            title="477 Global rank in Leetcode Weekly Contest 404"
+            subTitle="Leetcode"
+            result="2088 Rating"
+            des=""
+          />
+          <ResumeCard
             title="9th Rank in CodeRush AlgoQuiz and coding
 Challange 2K23"
             subTitle="Coding Contest organised by the AlgoUniversity."
@@ -51,12 +57,15 @@ Challange 2K23"
 <ResumeCard
             title="3 Star at Codechef."
             subTitle="Codechef"
-            result="1635 Rating"
+            result="1664 Rating"
             des=""
           />
-
-
-
+          <ResumeCard
+            title="1300+ Rating in Codeforces."
+            subTitle="Codeforces"
+            result="1300+ Rating"
+            des=""
+          />
         </div>
       </div>
      
