@@ -13,7 +13,7 @@ import Efficiency from "./components/resume/skills/skills";
 import Experience from "./components/resume/Experience";
 function App() {
   return (
-    <div className="w-full h-auto bg-slate-700 text-lightText px-4">
+    <div className="w-full h-auto bg-slate-700 text-lightText ">
         <Navbar />
       <div className="max-w-screen-xl mx-auto">
         <Banner />
